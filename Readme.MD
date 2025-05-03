@@ -25,14 +25,8 @@ A simple and interactive web application that calculates your exact age based on
 
 ## 💻 How to Run
 
-1️⃣ Clone the repository:
+1️⃣ Clone the repository: git clone https://github.com/karun2328/Age_Calculator.git
 
-```bash
-git clone https://github.com/karun2328/Age_Calculator.git
+2️⃣ Navigate to the project folder: Copy code cd Age_Calculator
 
-2️⃣ Navigate to the project folder:
-
-bash
-Copy code
-cd Age_Calculator
 3️⃣ Open index.html in your browser.
