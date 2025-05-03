@@ -1,0 +1,77 @@
+/* General Body Styling */
+body {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff; /* Light pastel background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+/* Heading Styling */
+h1, h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Form Container Styling */
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Limits the form width */
+}
+
+/* Input Fields */
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Result Styling */
+#result {
+    background-color: #ffffff;
+    color: #333;
+    border: 2px solid #4CAF50;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
